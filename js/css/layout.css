@@ -1,0 +1,112 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	.row {text-align: center !important;}
+	.text {width: 660px !important;}
+	#imagearea {display: none;}
+	.partner {text-align: center !important;}
+	.check-list {text-align: left !important;margin-left: 240px !important; }
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	
+	#imagearea {display: none;}
+	.text {max-width: 330px;}
+	.row .text {padding: 40px 40px 40px 20px;margin: 40px 0 30px 0px;}
+	.partner {text-align: center !important;}
+	.partner .imgleft {float: none; display: block;text-align: center !important;margin: 20px auto;}
+	.entry .entry-left {margin: 40px 0 0px 40px !important;padding: 40px 40px 0px 100px !important;}
+	.entry .entry-right {margin: 20px 0 40px 40px !important;padding: 40px 40px 0px 100px !important;}
+	.head {text-align: center;margin: 0 auto;}
+	.logo-mobile {text-align: center !important; width: 480px !important; margin: 0 auto !important;}
+	#nav {display: none;}
+	
+	.calltoaction {text-align: center;margin-bottom: 40px;padding-top: 40px;}
+	.calltoaction h3 {font-size: 24px !important;padding: 0 20px 0 20px !important;}
+	.calltoaction p {padding: 0 20px 0 20px !important;}
+	
+	#featured {width: 100%; background: #373f4a;margin-top: 30px;margin-bottom: 0px;}
+
+	.feat-text {display: none !important;}
+	
+	.home-form {margin-left: 0px !important;}
+	form, .home-form form {margin: 0px !important; padding: 0px !important;}
+	.home-form h3 {margin-left: 0px !important; margin-top: 40px;}
+	
+	.testimonials blockquote {font-size:24px !important;margin: 60px 80px 0 80px;}
+	
+	#bx-pager {display: none;}
+
+	.footer-widgets-left {border-right: none !important; border-bottom: 1px solid #dddddd !important;}
+	.footer-widgets-right {margin: 0px 0 40px 0  !important; padding: 10px 40px 20px 40px  !important;}
+	.footer-bottom-social {display: none !important;}
+	
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	form {margin: 0px !important; padding: 0px !important}
+	.home-form {margin-top: 20px !important;}
+	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+	.home-form {margin-top: 20px !important;}
+	.home-form h3 {font-size: 18px !important;}
+	.text {width: 240px !important;margin: 40px 0px 40px 0px !important;padding: 0px 20px 0px 40px !important;}
+	.text h3 {font-size: 24px !important;}
+	.text p {}
+	.screenshots img {display: block !important;margin: 10px 0px 10px 60px !important; text-align: center !important;}
+	
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
